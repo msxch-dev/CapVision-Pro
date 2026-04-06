@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapVisionPro Help Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+        }
+        body {
+            background: #f1f5f9;
+            color: #212529;
+            line-height: 1.85;
+            padding: 30px 16px;
+        }
+        .help-container {
+            max-width: 880px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px 45px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e2e8f0;
+        }
+        h1 {
+            color: #165DFF;
+            text-align: center;
+            border-bottom: 3px solid #e2e8f0;
+            padding-bottom: 18px;
+            margin-bottom: 35px;
+            font-size: 26px;
+            font-weight: 600;
+        }
+        h2 {
+            color: #165DFF;
+            margin: 36px 0 16px;
+            font-size: 20px;
+            font-weight: 600;
+            border-left: 5px solid #165DFF;
+            padding-left: 14px;
+        }
+        h3 {
+            color: #334155;
+            margin: 22px 0 10px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        p, li {
+            margin: 10px 0;
+            font-size: 15px;
+            color: #374151;
+        }
+        ul {
+            padding-left: 28px;
+        }
+        .shortcut-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .shortcut-table th, .shortcut-table td {
+            border: 1px solid #e2e8f0;
+            padding: 14px 16px;
+            text-align: left;
+            font-size: 15px;
+        }
+        .shortcut-table th {
+            background: #f8fafc;
+            color: #1e40af;
+            font-weight: 600;
+        }
+        .shortcut-table tr:hover {
+            background: #f8fafc;
+        }
+        .notice {
+            background: #fffbeb;
+            color: #92400e;
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin: 24px 0;
+            border-left: 5px solid #f59e0b;
+            font-weight: 500;
+        }
+        .faq-item {
+            margin: 20px 0;
+            padding-bottom: 16px;
+            border-bottom: 1px dashed #e2e8f0;
+        }
+        .intro {
+            text-align: center;
+            font-size: 16px;
+            color: #475569;
+            margin-bottom: 30px;
+        }
+        code {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+            color: #dc2626;
+        }
+    </style>
+</head>
+<body>
+    <div class="help-container">
+        <h1>CapVisionPro Help Document</h1>
+        <p class="intro">Professional camera preview, capture & recording tool with global hotkeys, clipboard auto-sync, and file management.</p>
+
+        <h2>1. Main Functions</h2>
+        <ul>
+            <li>Real-time camera preview with adjustable resolution</li>
+            <li>One-click snapshot, auto-save to <code>image/</code> folder</li>
+            <li>Snapshot automatically copied to system clipboard</li>
+            <li>Video recording with countdown timer and duration display</li>
+            <li>Recording pause & resume function</li>
+            <li>Audio recording support with microphone</li>
+            <li>Quick open image, video, log and ErrorLog folders</li>
+            <li>View latest image or video with one click</li>
+            <li>System tray minimize & toast notifications</li>
+            <li>Complete global keyboard shortcut support</li>
+        </ul>
+
+        <h2>2. Keyboard Shortcuts</h2>
+        <table class="shortcut-table">
+            <tr>
+                <th>Shortcut</th>
+                <th>Function</th>
+            </tr>
+            <tr>
+                <td>Alt + C</td>
+                <td>Capture snapshot</td>
+            </tr>
+            <tr>
+                <td>Alt + R</td>
+                <td>Start video recording</td>
+            </tr>
+            <tr>
+                <td>Alt + O</td>
+                <td>Stop video recording</td>
+            </tr>
+            <tr>
+                <td>Alt + Z</td>
+                <td>Pause / Resume recording</td>
+            </tr>
+            <tr>
+                <td>Alt + I</td>
+                <td>Open image folder</td>
+            </tr>
+            <tr>
+                <td>Alt + V</td>
+                <td>Open video folder</td>
+            </tr>
+            <tr>
+                <td>Alt + L</td>
+                <td>Open log folder</td>
+            </tr>
+            <tr>
+                <td>Alt + E</td>
+                <td>Open ErrorLog folder</td>
+            </tr>
+            <tr>
+                <td>Alt + Shift + S</td>
+                <td>Open latest snapshot</td>
+            </tr>
+            <tr>
+                <td>Alt + Shift + V</td>
+                <td>Open latest video</td>
+            </tr>
+            <tr>
+                <td>Alt + K</td>
+                <td>Show all shortcuts</td>
+            </tr>
+            <tr>
+                <td>Alt + H</td>
+                <td>Open help document</td>
+            </tr>
+            <tr>
+                <td>Alt + W / ESC</td>
+                <td>Close subwindow</td>
+            </tr>
+            <tr>
+                <td>Alt + P</td>
+                <td>Exit application completely</td>
+            </tr>
+        </table>
+
+        <h2>3. Important Notes</h2>
+        <div class="notice">
+            Please make sure your camera is not being used by other software before launching CapVisionPro.
+        </div>
+        <ul>
+            <li>Images are saved to <code>image/</code> directory</li>
+            <li>Videos are saved to <code>video/</code> directory</li>
+            <li>Normal logs are saved to <code>log/</code> directory</li>
+            <li>Error logs are saved to <code>ErrorLog/</code> directory</li>
+            <li>Run the program as Administrator if camera or hotkeys do not work properly</li>
+            <li>Close other camera apps to avoid device occupation issues</li>
+        </ul>
+
+        <h2>4. Troubleshooting</h2>
+        <div class="faq-item">
+            <h3>Camera cannot be opened or detected</h3>
+            <p>Check driver installation, camera privacy settings, or close other software that is using the camera.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Hotkeys not responding</h3>
+            <p>Run the program as Administrator, or check for shortcut conflicts with other software.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Recording fails to start</h3>
+            <p>Check disk space, resolution settings, and whether the microphone is available.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Program crashes or errors</h3>
+            <p>Check the <code>ErrorLog/</code> folder for details and send logs to the developer for support.</p>
+        </div>
+    </div>
+</body>
+</html>

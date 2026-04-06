@@ -1,0 +1,7 @@
+Welcome to the source code directory of CapVisionPro, a professional camera capture and recording tool. Before running the program, please carefully read and follow the following instructions to ensure the software can run normally without errors:
+
+First of all, this program is fully developed based on the Python programming language. Therefore, if you have not installed Python on your computer, please download and install the appropriate version of Python first (it is recommended to install Python 3.8 or above for better compatibility). Without Python installed, the program cannot be launched or run properly.
+
+In addition, if you encounter a prompt indicating that certain Python modules are missing when trying to run the main program (CapVisionPro.pyw), this means that the required third-party dependencies have not been installed yet. In this case, please directly double-click the **InstallLibMoudle.exe** file in this directory. This executable file is a one-click dependency installation tool specially designed for CapVisionPro, which will automatically download and install all the required third-party libraries, saving you the trouble of manually installing each module one by one.
+
+Please strictly follow the above steps, and you will be able to run the CapVisionPro source code smoothly. If you still encounter problems after following the instructions, please check the ErrorLog folder for detailed error information or refer to the Caphelp.html help document for further solutions.
